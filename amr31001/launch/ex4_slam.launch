@@ -1,0 +1,4 @@
+<launch>
+  <include file="$(find turtlebot3_slam)/launch/turtlebot3_slam.launch" />
+  <node pkg="amr31001" type="ex4.py" name="my_map_saver" output="screen" />
+</launch>
