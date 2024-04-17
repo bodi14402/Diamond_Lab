@@ -1,0 +1,8 @@
+<launch>
+  <!-- Launch move_circle.py node -->
+  <node pkg="acs6121_realbot" type="spinbot.py" name="spinbot" output="screen" />
+
+  <!-- Launch odom_subscriber.py node -->
+  <node pkg="acs6121_realbot" type="odom_subscriber.py" name="odom_subscriber_node" output="screen" />
+
+</launch>
